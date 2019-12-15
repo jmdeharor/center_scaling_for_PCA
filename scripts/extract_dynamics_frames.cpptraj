@@ -1,0 +1,5 @@
+parm /gpfs/scratch/nct01/nct01029/DENT/WT/ciII/step5_assembly.psf 	#adapt path
+trajin /gpfs/scratch/nct01/nct01029/DENT/WT/ciII//step7.1a_production.dcd 	#adapt path and file name
+reference /gpfs/scratch/nct01/nct01029/DENT/WT/ciII/step5_assembly.pdb 	#adapt path
+rms reference ":110,111,116,153,197,202,206,209,210,462,500@CA,C,N,O"
+trajout 1a_prod_text pdb multi
